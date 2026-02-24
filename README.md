@@ -102,6 +102,5 @@ Low-poly stilinde tasarlanmış, Inspector üzerinden parametre kontrollü yukar
 <p align="center">
   <img src="./README_Resimler/Guillotine.gif" width="400">
   <br>
-  <sub>Animation Preview</sub>
+  <sub>Movement powered by DOTween with a modular C# controller architecture.</sub>
 </p>
-<sub>Movement driven via DOTween and modular C# controller architecture.</sub>
