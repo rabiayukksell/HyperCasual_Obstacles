@@ -1,10 +1,8 @@
 Hyper-Casual Engel Paketi ve Animasyon Mekanikleri
-
 Bu proje, mobil oyunlar için optimize edilmiş, düşük poligonlu (low-poly) ve animasyonlu bir engel setidir. Süreç, modellerin Blender'da sıfırdan tasarlanmasından başlayıp, Unity içerisinde C# scriptleri ile işlevsel hale getirilmesine kadar tüm aşamaları kapsamaktadır.
 
 
 Kullanılan Teknolojiler
-
 Unity 6 (6000.3.2f1): Projenin geliştirildiği güncel Unity 6 sürümü.
 
 C# & DOTween: Engellerin akıcı ve yumuşatılmış hareketleri için fizik motoru yerine performans dostu Tween kütüphanesi kullanıldı.
@@ -17,7 +15,6 @@ Veri Odaklı Animasyon Sistemi: Her engelin hızı, dönüş açısı ve bekleme
 
 
 Uygulanan Teknik Özellikler
-
 1. 3D Modelleme ve Optimizasyon (Blender)
 Low-Poly Modelleme: Mobil cihazlarda yüksek performans için optimize edilmiş düşük poligonlu modelleme teknikleri kullanıldı.
 
@@ -42,7 +39,6 @@ Varlık Organizasyonu: Proje dosyaları endüstri standartlarına uygun olarak (
 
 
 Uygulanan Engeller
-
 Proje, birden fazla animasyonlu 3D engel türü içermektedir:
 
 Dönen Çekiç (Rotating Hammer)
@@ -68,7 +64,6 @@ Her engel, kendi animasyon mantığına sahip, tekrar kullanılabilir prefab ola
 
 
 Nasıl Kullanılır?
-
 Projeyi Unity 6 ile açın.
 
 Assets/Prefabs klasöründeki engellerden birini sahneye sürükleyin.
@@ -78,4 +73,4 @@ Objenin üzerindeki script bileşeninden hız ve mesafe gibi ayarları gerçek z
 
 
 Görsel Önizleme
-(Buraya Unity'den aldığın o güzel ekran görüntülerini veya bir GIF'ini ekleyebilirsin)
+
