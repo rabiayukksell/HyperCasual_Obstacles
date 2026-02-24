@@ -115,7 +115,7 @@ Merkez pivot noktası etrafında sürekli dönüş hareketi yapan, çarpışma b
 - Sürekli rotasyon için matematiksel hareket mantığı kullanıldı  
 
 <p align="center">
-  <img src="./README_Resimler/RotatingHammer.gif" width="400">
+  <img src="./README_Resimler/RotatingHammer.gif" width="500">
   <br>
   <sub>Continuous rotation powered by a modular C# controller.</sub>
 </p>
