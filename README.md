@@ -73,6 +73,11 @@ Bu proje, her biri kendi animasyon mantığına sahip aşağıdaki 3D engel tür
 ---
 
 ## 🧠 Örnek Kod – DOTween Tabanlı Saw Mekaniği
+
+Aşağıdaki örnek, lineer hareket ve sürekli rotasyonun DOTween ile
+nasıl modüler şekilde uygulandığını göstermektedir.
+
+```csharp
 using DG.Tweening;
 using NaughtyAttributes;
 using UnityEngine;
