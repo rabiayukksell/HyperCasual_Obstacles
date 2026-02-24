@@ -1,81 +1,78 @@
-# HyperCasual_Obstacles
+Hyper-Casual Engel Paketi ve Animasyon Mekanikleri
 
-A modular 3D obstacle (engel) system developed in Unity for hyper-casual and runner-style games.
+Bu proje, mobil oyunlar için optimize edilmiş, düşük poligonlu (low-poly) ve animasyonlu bir engel setidir. Süreç, modellerin Blender'da sıfırdan tasarlanmasından başlayıp, Unity içerisinde C# scriptleri ile işlevsel hale getirilmesine kadar tüm aşamaları kapsamaktadır.
 
-This project focuses on designing reusable, animated engel prefabs integrated with collision logic and gameplay-ready structure.
 
----
+Kullanılan Teknolojiler
 
-## 🎯 Project Goal
+Unity 6 (6000.3.2f1): Projenin geliştirildiği güncel Unity 6 sürümü.
 
-To create a collection of modular 3D engel mechanics that can be easily integrated into different level designs.
+C# & DOTween: Engellerin akıcı ve yumuşatılmış hareketleri için fizik motoru yerine performans dostu Tween kütüphanesi kullanıldı.
 
-The system is scalable, reusable, and suitable for hyper-casual gameplay prototypes.
+Blender: Tüm 3D modeller düşük poligon (low-poly) prensibiyle sıfırdan tasarlandı.
 
----
+NaughtyAttributes: Unity Inspector panelini (Foldout, Button grupları vb.) daha düzenli hale getirmek için entegre edildi.
 
-## 🛠 Technologies Used
+Veri Odaklı Animasyon Sistemi: Her engelin hızı, dönüş açısı ve bekleme süreleri Inspector üzerinden (Kod yazmadan) dinamik olarak ayarlanabilir şekilde yapılandırıldı.
 
-- Unity 6 (Unity 6.3 LTS)
-- C#
-- Blender (3D Modeling)
-- Prefab-based modular structure
-- Animator & Transform-based animations
-- Collider & Trigger systems
-- Rigidbody (Physics interaction)
 
----
+Uygulanan Teknik Özellikler
 
-## ⚙️ Implemented Engeller
+1. 3D Modelleme ve Optimizasyon (Blender)
+Low-Poly Modelleme: Mobil cihazlarda yüksek performans için optimize edilmiş düşük poligonlu modelleme teknikleri kullanıldı.
 
-The project includes multiple animated 3D engel types:
+Pivot Noktası Yönetimi: Unity içerisinde doğru rotasyon ve hareket animasyonları için tüm objelerin pivot noktaları ve hiyerarşik yapıları hassas bir şekilde ayarlandı.
 
-- Rotating Hammer
-- Double Axe
-- Saw Blade
-- Grinder
-- Guillotine
-- Press Trap
-- Spear Mechanism
-- Mace
-- Double Stick
-- Static & Moving Engeller
+UV Mapping: Materyal ve renk tutarlılığı için temiz UV haritaları oluşturuldu.
 
-Each engel is created as a reusable prefab with its own animation logic and collision handling.
+2. Unity Geliştirme ve Scripting
+C# Programlama: Engellerin dönme, sallanma ve gidip-gelme gibi hareketlerini kontrol eden modüler scriptler yazıldı.
 
----
+Matematiksel Animasyonlar: Mathf.PingPong, Mathf.Sin ve Quaternion.Lerp gibi fonksiyonlar kullanılarak kod tabanlı ve akıcı prosedürel hareketler sağlandı.
 
-## 🎨 3D Modeling & Asset Pipeline
+Modüler Prefab Sistemi: Hız, mesafe ve yön gibi parametrelerin Unity Inspector üzerinden kolayca değiştirilebildiği "sürükle-bırak" bir yapı kuruldu.
 
-All engel models were designed and created by me in Blender.
+İş Akışı Araçları: NaughtyAttributes gibi araçlar entegre edilerek, Inspector paneli daha düzenli ve geliştirici dostu hale getirildi.
 
-Pipeline process:
-1. Modeling in Blender (low-poly optimized)
-2. Exporting as FBX
-3. Importing into Unity
-4. Prefab creation
-5. Animation setup
-6. Collider & physics integration
+3. Entegrasyon ve Dosya Yapısı
+Blender - Unity Pipeline: FBX dosyalarının doğru ölçek ve rotasyonla aktarımı için profesyonel dışa aktarım standartları uygulandı.
 
-This workflow allowed full control over gameplay-driven engel design and modular structure.
+Varlık Organizasyonu: Proje dosyaları endüstri standartlarına uygun olarak (Models, Prefabs, Scripts, Materials) klasörlendi.
 
----
 
-## 🎮 Gameplay Integration Logic
+⚙️ Uygulanan Engeller
 
-- Engeller use collider-based detection
-- Designed to trigger player interaction or death on collision
-- Prefab structure allows easy placement inside level scenes
-- Suitable for endless runner or obstacle-course style games
+Proje, birden fazla animasyonlu 3D engel türü içermektedir:
 
----
+Dönen Çekiç (Rotating Hammer)
 
-## 🚀 Development Purpose
+Çift Balta (Double Axe)
 
-This project was developed to practice:
+Testere Bıçağı (Saw Blade)
 
-- Modular system design
-- Gameplay-oriented engel creation
-- Prefab architecture
-- Animation integration in Unity
-- Blender-to-Unity asset pipeline workflow
+Öğütücü (Grinder)
+
+Giyotin (Guillotine)
+
+Pres Tuzağı (Press Trap)
+
+Mızrak Mekanizması (Spear Mechanism)
+
+Topuz (Mace)
+
+Çift Çubuk (Double Stick)
+
+Her engel, kendi animasyon mantığına sahip, tekrar kullanılabilir prefab olarak oluşturulmuştur.
+
+
+🛠️ Nasıl Kullanılır?
+
+Projeyi Unity 6 ile açın.
+
+Assets/Prefabs klasöründeki engellerden birini sahneye sürükleyin.
+
+Objenin üzerindeki script bileşeninden hız ve mesafe gibi ayarları gerçek zamanlı olarak düzenleyin.
+
+
+🖼️ Görsel Önizleme
+(Buraya Unity'den aldığın o güzel ekran görüntülerini veya bir GIF'ini ekleyebilirsin)
