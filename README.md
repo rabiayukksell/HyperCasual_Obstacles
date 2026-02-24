@@ -103,6 +103,7 @@ Low-poly stilinde tasarlanmış, Inspector üzerinden parametre kontrollü yukar
   <br>
   <sub>Movement powered by DOTween with a modular C# controller architecture.</sub>
 </p>
+
 ---
 
 ### 🔨 Dönen Çekiç (Rotating Hammer)
@@ -120,6 +121,7 @@ Merkez pivot noktası etrafında sürekli dönüş hareketi yapan, çarpışma b
 <p align="center">
   <sub><b>Continuous rotation powered by modular C# controller architecture.</b></sub>
 </p>
+
 ---
 
 ### 🪚 Testere Bıçağı (Saw)
@@ -136,6 +138,6 @@ Ray üzerinde ileri-geri hareket ederken eş zamanlı olarak dönen, çarpışma
   <img src="./README_Resimler/Saw.gif" width="650">
   </p>
 <p align="center">
-  <sub><b>Linear motion combined with continuous rotation using modular C# controller architecture.</b></sub>
+  <sub><b>Synchronized linear translation and continuous rotation via modular C# controller architecture.</b></sub>
 </p>
   
