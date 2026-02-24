@@ -159,4 +159,23 @@ Sabit eksen etrafında yüksek hızda dönen, alan kontrolü ve refleks tabanlı
 <p align="center">
   <sub><b>High-speed rotational mechanic driven by modular C# controller architecture.</b></sub>
 </p>
+
+---
+
+### 🪓 Balta (Axe)
+
+Sabit pivot noktası etrafında salınım yapan, zamanlama ve refleks tabanlı oynanış için tasarlanmış dinamik bir engel sistemi.
+
+**Teknik Detaylar:**
+- Blender’da low-poly olarak modellendi  
+- Matematiksel sinüs tabanlı salınım mantığı kullanıldı  
+- Inspector üzerinden dönüş açısı ve hız parametre kontrollü tasarlandı  
+- Performans için fizik yerine transform tabanlı hareket tercih edildi  
+
+<p align="center">
+  <img src="./README_Resimler/Axe.gif" width="650">
+</p>
+<p align="center">
+  <sub><b>Sinus-based swing mechanic powered by modular C# controller architecture.</b></sub>
+</p>
   
