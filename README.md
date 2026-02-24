@@ -1,7 +1,5 @@
 # Hyper-Casual Engel Paketi ve Animasyon Mekanikleri
 
-> Modular low-poly obstacle system developed for hyper-casual mobile games using Unity and C#.
-
 Bu proje, mobil oyunlar için optimize edilmiş düşük poligonlu (low-poly) ve animasyonlu bir 3D engel setidir.
 
 ---
@@ -9,20 +7,15 @@ Bu proje, mobil oyunlar için optimize edilmiş düşük poligonlu (low-poly) ve
 ## 🛠 Kullanılan Teknolojiler
 
 - **Unity 6 (6000.3.2f1)**  
-  Projenin geliştirildiği güncel Unity sürümü.
 
-- **C# & DOTween**  
-  Engellerin akıcı hareketleri için fizik motoru yerine performans odaklı Tween tabanlı animasyon sistemi kullanıldı.
+- **C#**  
 
-- **Blender**  
-  Tüm 3D modeller low-poly prensibiyle sıfırdan tasarlandı.
+- **DOTween**  
 
-- **NaughtyAttributes**  
-  Unity Inspector panelini (Foldout, Button grupları vb.) daha düzenli ve okunabilir hale getirmek için entegre edildi.
+- **Blender (Low-Poly Modelleme)**  
 
-- **Veri Odaklı Animasyon Sistemi**  
-  Her engelin hız, dönüş açısı ve bekleme süreleri Inspector üzerinden dinamik olarak ayarlanabilir şekilde tasarlandı.
-
+- **NaughtyAttributes**
+- 
 ---
 
 ## ⚙️ Uygulanan Teknik Özellikler
@@ -76,6 +69,56 @@ Bu proje, her biri kendi animasyon mantığına sahip aşağıdaki 3D engel tür
 - Mızrak Mekanizması (Spear Mechanism)  
 - Topuz (Mace)  
 - Çift Çubuk (Double Stick)
+
+---
+
+## 🧠 Örnek Kod – DOTween Tabanlı Saw Mekaniği
+using DG.Tweening;
+using NaughtyAttributes;
+using UnityEngine;
+
+public class SawAnimation : MonoBehaviour
+{
+    [SerializeField, Foldout("References")] 
+    private Transform movementTransform;
+
+    [SerializeField, Foldout("References")] 
+    private Transform rotationTransform;
+
+    [SerializeField, BoxGroup("Settings")] 
+    private float movementX;
+
+    [SerializeField, BoxGroup("Settings")] 
+    private float movementDuration;
+
+    [SerializeField, BoxGroup("Settings")] 
+    private float rotationDuration;
+
+    private void Start()
+    {
+        PlayRotation();
+        PlayMovement();
+    }
+
+    private void PlayMovement()
+    {
+        movementTransform
+            .DOLocalMoveX(movementX, movementDuration)
+            .SetLoops(-1, LoopType.Yoyo)
+            .SetEase(Ease.InOutSine);
+    }
+
+    private void PlayRotation()
+    {
+        Vector3 rotationVector = new Vector3(0, 0, 360);
+
+        rotationTransform
+            .DOLocalRotate(rotationVector, rotationDuration, RotateMode.FastBeyond360)
+            .SetLoops(-1, LoopType.Incremental)
+            .SetEase(Ease.Linear)
+            .SetRelative(true);
+    }
+}
 
 ---
 
