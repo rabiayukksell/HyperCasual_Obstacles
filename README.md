@@ -89,7 +89,7 @@ Proje, her biri kendi animasyon mantığına sahip aşağıdaki 3D engel türler
 
 ---
 
-## 🪓 Giyotin Engeli  
+## 🪓 Giyotin (Guillotine) Engeli  
 
 Low-poly stilinde tasarlanmış, yukarı-aşağı hareket eden animasyonlu bir ölüm engeli.
 
