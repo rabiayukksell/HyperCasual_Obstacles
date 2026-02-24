@@ -15,7 +15,7 @@ Bu proje, mobil oyunlar için optimize edilmiş düşük poligonlu (low-poly) ve
 - **Blender (Low-Poly Modelleme)**  
 
 - **NaughtyAttributes**
-- 
+  
 ---
 
 ## ⚙️ Uygulanan Teknik Özellikler
