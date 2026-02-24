@@ -87,4 +87,15 @@ Proje, her biri kendi animasyon mantığına sahip aşağıdaki 3D engel türler
 
 ## 🎥 Görsel Önizleme
 
-> Buraya GIF veya ekran görüntüleri ekleyebilirsiniz.
+---
+
+## 🪓 Giyotin Engeli  
+
+Low-poly stilinde tasarlanmış, yukarı-aşağı hareket eden animasyonlu bir ölüm engeli.
+
+**Teknik Detaylar:**
+- Blender'da modellendi  
+- Unity içerisinde C# ile hareket kontrolü sağlandı  
+- DOTween kullanılarak akıcı animasyon implementasyonu yapıldı  
+
+![Giyotin](README_Resimler/Giyotin.png)
