@@ -119,3 +119,20 @@ Merkez pivot noktası etrafında sürekli dönüş hareketi yapan, çarpışma b
   <br>
   <sub>Continuous rotation powered by a modular C# controller.</sub>
 </p>
+---
+
+### 🪚 Testere Bıçağı (Saw)
+
+Ray üzerinde ileri-geri hareket ederken eş zamanlı olarak dönen, çarpışma bazlı etkileşim için tasarlanmış dinamik bir engel sistemi.
+
+**Teknik Detaylar:**
+- Blender’da low-poly olarak modellendi  
+- Ray boyunca parametre kontrollü lineer hareket sistemi tasarlandı  
+- Sürekli rotasyon için matematiksel dönüş mantığı kullanıldı  
+- Hareket ve rotasyon senkronize şekilde yapılandırıldı  
+
+<p align="center">
+  <img src="./README_Resimler/Saw.gif" width="500">
+  <br>
+  <sub>Linear motion combined with continuous rotation using modular C# controller architecture.</sub>
+</p>
