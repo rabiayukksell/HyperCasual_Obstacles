@@ -118,7 +118,7 @@ Merkez pivot noktası etrafında sürekli dönüş hareketi yapan, çarpışma b
   <img src="./README_Resimler/RotatingHammer.gif" width="650">
 </p>
 <p align="center">
-  <sub>Continuous rotation powered by a modular C# controller.</sub>
+  <sub><b>Continuous rotation powered by modular C# controller architecture.</b></sub>
 </p>
 ---
 
@@ -134,6 +134,8 @@ Ray üzerinde ileri-geri hareket ederken eş zamanlı olarak dönen, çarpışma
 
 <p align="center">
   <img src="./README_Resimler/Saw.gif" width="650">
-  <br>
-  <sub>Linear motion combined with continuous rotation using modular C# controller architecture.</sub>
+  </p>
+<p align="center">
+  <sub><b>Linear motion combined with continuous rotation using modular C# controller architecture.</b></sub>
 </p>
+  
