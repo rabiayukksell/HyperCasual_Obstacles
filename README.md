@@ -1,7 +1,8 @@
 # Hyper-Casual Engel Paketi ve Animasyon Mekanikleri
 
-Bu proje, mobil oyunlar için optimize edilmiş düşük poligonlu (low-poly) ve animasyonlu bir 3D engel setidir.  
-Süreç; modellerin Blender’da sıfırdan tasarlanmasından başlayıp, Unity içerisinde C# scriptleri ile işlevsel ve parametre kontrollü hale getirilmesine kadar tüm aşamaları kapsamaktadır.
+> Modular low-poly obstacle system for hyper-casual mobile games.
+
+Bu proje, mobil oyunlar için optimize edilmiş düşük poligonlu (low-poly) ve animasyonlu bir 3D engel setidir.
 
 ---
 
