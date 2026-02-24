@@ -157,6 +157,6 @@ Sabit eksen etrafında yüksek hızda dönen, alan kontrolü ve refleks tabanlı
   <img src="./README_Resimler/Grinder.gif" width="650">
 </p>
 <p align="center">
-  <sub><b>High-speed continuous rotation via modular C# controller architecture.</b></sub>
+  <sub><b>High-speed rotational mechanic driven by modular C# controller architecture.</b></sub>
 </p>
   
