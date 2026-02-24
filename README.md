@@ -1,6 +1,6 @@
 # Hyper-Casual Engel Paketi ve Animasyon Mekanikleri
 
-> Modular low-poly obstacle system for hyper-casual mobile games.
+> Modular low-poly obstacle system developed for hyper-casual mobile games using Unity and C#.
 
 Bu proje, mobil oyunlar için optimize edilmiş düşük poligonlu (low-poly) ve animasyonlu bir 3D engel setidir.
 
@@ -97,13 +97,6 @@ Low-poly stilinde tasarlanmış, yukarı-aşağı hareket eden animasyonlu bir �
 - Blender’da modellendi  
 - Unity içerisinde C# ile hareket kontrolü sağlandı  
 - DOTween kullanılarak performans odaklı animasyon sistemi geliştirildi
-
-### Static Preview
-<p align="center">
-  <img src="./README_Resimler/Guillotine.png" width="400">
-  <br>
-  <sub>Static Model View</sub>
-</p>
 
 ### Animation
 <p align="center">
