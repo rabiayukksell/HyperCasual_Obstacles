@@ -103,3 +103,19 @@ Low-poly stilinde tasarlanmış, Inspector üzerinden parametre kontrollü yukar
   <br>
   <sub>Movement powered by DOTween with a modular C# controller architecture.</sub>
 </p>
+---
+
+### 🔨 Dönen Çekiç (Rotating Hammer)
+
+Merkez pivot noktası etrafında sürekli dönüş hareketi yapan, çarpışma bazlı etkileşim için tasarlanmış modüler bir engel sistemi.
+
+**Teknik Detaylar:**
+- Blender’da low-poly olarak modellendi  
+- C# ile dönüş hızı parametre kontrollü şekilde tasarlandı  
+- Sürekli rotasyon için matematiksel hareket mantığı kullanıldı  
+
+<p align="center">
+  <img src="./README_Resimler/RotatingHammer.gif" width="400">
+  <br>
+  <sub>Continuous rotation powered by a modular C# controller.</sub>
+</p>
