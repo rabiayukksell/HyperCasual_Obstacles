@@ -140,4 +140,23 @@ Ray üzerinde ileri-geri hareket ederken eş zamanlı olarak dönen, çarpışma
 <p align="center">
   <sub><b>Synchronized linear translation and continuous rotation via modular C# controller architecture.</b></sub>
 </p>
+
+---
+
+### ⚙️ Öğütücü (Grinder)
+
+Sabit eksen etrafında yüksek hızda dönen, alan kontrolü ve refleks tabanlı oynanış için tasarlanmış dinamik bir engel sistemi.
+
+**Teknik Detaylar:**
+- Blender’da low-poly olarak modellendi  
+- C# ile dönüş hızı Inspector üzerinden parametre kontrollü tasarlandı  
+- Sürekli rotasyon için matematiksel dönüş mantığı kullanıldı  
+- Performans optimizasyonu için fizik yerine transform tabanlı hareket tercih edildi  
+
+<p align="center">
+  <img src="./README_Resimler/Grinder.gif" width="650">
+</p>
+<p align="center">
+  <sub><b>High-speed continuous rotation via modular C# controller architecture.</b></sub>
+</p>
   
