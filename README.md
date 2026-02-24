@@ -98,7 +98,6 @@ Low-poly stilinde tasarlanmış, Inspector üzerinden parametre kontrollü yukar
 - Unity içerisinde C# ile hareket kontrolü sağlandı  
 - DOTween kullanılarak performans odaklı animasyon sistemi geliştirildi
 
-### Animation
 <p align="center">
   <img src="./README_Resimler/Guillotine.gif" width="400">
   <br>
