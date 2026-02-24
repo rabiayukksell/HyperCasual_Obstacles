@@ -83,7 +83,7 @@ Bu proje, her biri kendi animasyon mantığına sahip aşağıdaki 3D engel tür
 
 1. Projeyi Unity 6 ile açın.  
 2. `Assets/Prefabs` klasöründeki engellerden birini sahneye sürükleyin.  
-3. Objeyi seçtikten sonra script bileşeni üzerinden hız, mesafe ve yön gibi parametreleri gerçek zamanlı olarak düzenleyin.
+3. Objeyi seçtikten sonra ilgili C# bileşeni üzerinden hız, hareket mesafesi, dönüş açısı ve bekleme süresi gibi parametreleri Inspector aracılığıyla gerçek zamanlı olarak düzenleyin.
 
 ---
 
@@ -91,7 +91,7 @@ Bu proje, her biri kendi animasyon mantığına sahip aşağıdaki 3D engel tür
 
 ### 🪓 Giyotin (Guillotine)
 
-Low-poly stilinde tasarlanmış, parametre kontrollü yukarı-aşağı hareket mekanizmasına sahip animasyonlu bir ölüm engeli.
+Low-poly stilinde tasarlanmış, Inspector üzerinden parametre kontrollü yukarı-aşağı hareket mekanizmasına sahip animasyonlu bir ölüm engeli.
 
 **Teknik Detaylar:**
 - Blender’da modellendi  
