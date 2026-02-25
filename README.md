@@ -61,12 +61,12 @@ Bu proje, mobil oyunlar için optimize edilmiş düşük poligonlu (low-poly) ve
 Bu proje, her biri kendi animasyon mantığına sahip aşağıdaki 3D engel türlerini içerir:
 
 - Dönen Çekiç (Rotating Hammer)  
-- Çift Balta (Double Axe)  
-- Testere Bıçağı (Saw Blade)  
+- Çift Balta (Axe)  
+- Testere Bıçağı (Saw)  
 - Öğütücü (Grinder)  
 - Giyotin (Guillotine)  
-- Pres Tuzağı (Press Trap)  
-- Mızrak Mekanizması (Spear Mechanism)  
+- Pres Tuzağı (Press)  
+- Mızrak Mekanizması (Spear)  
 - Topuz (Mace)  
 - Çift Çubuk (Double Stick)
 
